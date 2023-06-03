@@ -1,0 +1,8 @@
+### Login
+GET http://localhost:8080/auth/login HTTP/1.1
+
+### Logout
+GET http://localhost:8080/auth/logout HTTP/1.1
+
+### Google auth
+GET http://localhost:8080/auth/google HTTP/1.1
