@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
     <title>OAuth Tutorials</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
     <nav>
         <ul>
             <li><a href="/logout">Logout</a></li>
-            <li><a href="/login">Login</a></li>
+            <li><a href="/auth/login">Login</a></li>
             <li><a href="/">Home Page</a></li>
         </ul>
     </nav>
 
     <header>
-        <h1>Net Ninja Tutorials</h1>
-        <h2>Home Page</h2>
+        <h1>Successful login!!!</h1>
     </header>
 
     <main>
-        <p>My journey to OAuth proficiency</p>
+        <a href="/logout" class="google-btn">Log out</a>
+        <h2>Welcome <%= user.firstName %></h2>
     </main>
 
 </body>
